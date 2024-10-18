@@ -1,5 +1,9 @@
 # AgileCRM Client for Laravel
 
+> **Please note!** 
+> 
+> We only include the endpoints necessary for the team's projects. If any endpoints are missing, feel free to create a pull request (PR) to add the required endpoints.
+
 ## Installation
 
 You can install the package via composer:
