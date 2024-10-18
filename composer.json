@@ -1,0 +1,40 @@
+{
+  "name": "isap-ou/laravel-agile-crm",
+  "description": "Laravel HTTP Client for AgileCRM",
+  "type": "library",
+  "require": {
+    "illuminate/http": "^10 | ^11"
+  },
+  "require-dev": {
+    "fakerphp/faker": "^1.23",
+    "mockery/mockery": "^1.6",
+    "phpunit/phpunit": "^11.0.1"
+  },
+  "license": "MIT",
+  "autoload": {
+    "psr-4": {
+      "IsapOu\\AgileCrm\\": "src/"
+    }
+  },
+  "autoload-dev": {
+    "psr-4": {
+      "IsapOu\\AgileCrm\\Tests\\": "tests/"
+    }
+  },
+  "authors": [
+    {
+      "name": "ISAP OU",
+      "email": "contact@isap.me"
+    }
+  ],
+  "extra": {
+    "laravel": {
+      "providers": [
+        "IsapOu\\AgileCrm\\ServiceProvider"
+      ],
+      "aliases": {
+        "AgileCrm": "IsapOu\\AgileCrm\\Facades\\AgileCrm"
+      }
+    }
+  }
+}
