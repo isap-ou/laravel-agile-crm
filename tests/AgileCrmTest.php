@@ -28,7 +28,7 @@ abstract class AgileCrmTest extends BaseTestCase
                 value: $this->faker->lastName,
             ),
             new ContactPropertyDto(
-                name: ContactSystemPropertyName::LAST_NAME,
+                name: ContactSystemPropertyName::EMAIL,
                 value: $this->faker->email,
                 subtype: ContactPropertySubType::PERSONAL,
             ),

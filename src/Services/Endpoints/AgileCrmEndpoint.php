@@ -6,7 +6,6 @@ use Illuminate\Http\Client\PendingRequest;
 use Illuminate\Support\Collection;
 use IsapOu\AgileCrm\Contracts\AgileCrmResource;
 use IsapOu\AgileCrm\Contracts\DtoContract;
-use IsapOu\AgileCrm\Dto\ContactDto;
 
 use function collect;
 
@@ -17,9 +16,8 @@ abstract class AgileCrmEndpoint implements \IsapOu\AgileCrm\Contracts\AgileCrmEn
     abstract protected function getEndpoint(): string;
 
     public function __construct(
-        private PendingRequest $request
-    ) {
-    }
+        protected PendingRequest $request
+    ) {}
 
     /**
      * @throws \Illuminate\Http\Client\RequestException
@@ -62,8 +60,6 @@ abstract class AgileCrmEndpoint implements \IsapOu\AgileCrm\Contracts\AgileCrmEn
     }
 
     /**
-     * @param int|string $id
-     * @return bool
      * @throws \Illuminate\Http\Client\ConnectionException
      * @throws \Illuminate\Http\Client\RequestException
      */

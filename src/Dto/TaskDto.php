@@ -64,17 +64,19 @@ final class TaskDto extends Dto
         $notes = [];
         if (! empty($data['contacts'])) {
             $contacts = collect($data['contacts'])->map(function ($contact) {
-                if (is_array($contact)) {
+                if (\is_array($contact)) {
                     return (string) $contact['id'];
                 }
+
                 return (string) $contact;
             })->toArray();
         }
         if (! empty($data['notes'])) {
             $notes = collect($data['notes'])->map(function ($item) {
-                if (is_array($item)) {
+                if (\is_array($item)) {
                     return (string) $item['id'];
                 }
+
                 return (string) $contact;
             })->toArray();
         }

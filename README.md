@@ -30,7 +30,7 @@ This design minimizes the need for redundant validation processes and ensures th
 First You need to add environment variables [Authentication credentials](https://github.com/agilecrm/rest-api?tab=readme-ov-file#authentication-):
 
 ```dotenv
-AGILE_CRM_DOMAIN=isap
+AGILE_CRM_DOMAIN=domain
 AGILE_CRM_EMAIL=example@mail.com
 AGILE_CRM_API_KEY=855*********************88
 ```

@@ -7,9 +7,9 @@ use IsapOu\AgileCrm\Services\AgileCrmClient;
 
 /**
  * @method static AgileCrmClient domain(string $domain)
- * @method \IsapOu\AgileCrm\Services\Endpoints\Contacts contacts()
- * @method \IsapOu\AgileCrm\Services\Endpoints\Tasks tasks()
- * @method \IsapOu\AgileCrm\Services\Endpoints\Notes notes()
+ * @method static \IsapOu\AgileCrm\Services\Endpoints\Contacts contacts()
+ * @method static \IsapOu\AgileCrm\Services\Endpoints\Tasks tasks()
+ * @method static \IsapOu\AgileCrm\Services\Endpoints\Notes notes()
  */
 class AgileCrm extends Facade
 {

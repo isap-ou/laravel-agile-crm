@@ -13,8 +13,6 @@ use IsapOu\AgileCrm\Tests\AgileCrmTest;
 use PHPUnit\Framework\Attributes\Depends;
 use PHPUnit\Framework\Attributes\Test;
 
-use function xdebug_break;
-
 class TasksTest extends AgileCrmTest
 {
     #[Test]

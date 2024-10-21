@@ -17,7 +17,7 @@ final class NoteDto extends Dto
 
     public static function toDto(array $data): static
     {
-        return new static(
+        return new self(
             subject: $data['subject'],
             description: $data['description'],
             contact_ids: $data['contact_ids'],

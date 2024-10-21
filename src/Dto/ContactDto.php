@@ -52,7 +52,7 @@ final class ContactDto extends Dto
 
     public static function toDto(array $data): static
     {
-        $dto = new static(
+        $dto = new self(
             id: $data['id'],
             tags: $data['tags'] ?? [],
             lead_score: $data['lead_score'],
