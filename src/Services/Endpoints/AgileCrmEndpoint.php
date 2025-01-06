@@ -9,7 +9,7 @@ use Isapp\AgileCrm\Contracts\DtoContract;
 
 use function collect;
 
-abstract class AgileCrmEndpoint implements \IsapOu\AgileCrm\Contracts\AgileCrmEndpoint
+abstract class AgileCrmEndpoint implements \Isapp\AgileCrm\Contracts\AgileCrmEndpoint
 {
     abstract protected function getDto(): string;
 
