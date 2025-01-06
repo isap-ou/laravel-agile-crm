@@ -52,5 +52,8 @@
         "AgileCrm": "Isapp\\AgileCrm\\Facades\\AgileCrm"
       }
     }
+  },
+  "replace": {
+    "isap-ou/laravel-agile-crm": "self.version"
   }
 }
