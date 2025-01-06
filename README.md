@@ -13,7 +13,7 @@
 You can install the package via composer:
 
 ```bash
-composer require isap-ou/laravel-agile-crm
+composer require isapp/laravel-agile-crm
 ```
 
 You will most likely need to edit the extensive configuration, so you can publish the config file with:
