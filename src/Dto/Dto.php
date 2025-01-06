@@ -1,13 +1,13 @@
 <?php
 
-namespace IsapOu\AgileCrm\Dto;
+namespace Isapp\AgileCrm\Dto;
 
 use Carbon\CarbonInterface;
 use Illuminate\Contracts\Support\Arrayable;
-use IsapOu\AgileCrm\Contracts\AgileCrmResource;
-use IsapOu\AgileCrm\Contracts\DtoContract;
-use IsapOu\AgileCrm\Contracts\EnumContract;
-use IsapOu\AgileCrm\Contracts\EpochTimeInterface;
+use Isapp\AgileCrm\Contracts\AgileCrmResource;
+use Isapp\AgileCrm\Contracts\DtoContract;
+use Isapp\AgileCrm\Contracts\EnumContract;
+use Isapp\AgileCrm\Contracts\EpochTimeInterface;
 use ReflectionClass;
 use ReflectionProperty;
 

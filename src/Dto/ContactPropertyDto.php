@@ -1,12 +1,12 @@
 <?php
 
-namespace IsapOu\AgileCrm\Dto;
+namespace Isapp\AgileCrm\Dto;
 
 use InvalidArgumentException;
-use IsapOu\AgileCrm\Contracts\EnumContract;
-use IsapOu\AgileCrm\Enums\ContactPropertySubType;
-use IsapOu\AgileCrm\Enums\ContactPropertyType;
-use IsapOu\AgileCrm\Enums\ContactSystemPropertyName;
+use Isapp\AgileCrm\Contracts\EnumContract;
+use Isapp\AgileCrm\Enums\ContactPropertySubType;
+use Isapp\AgileCrm\Enums\ContactPropertyType;
+use Isapp\AgileCrm\Enums\ContactSystemPropertyName;
 
 final class ContactPropertyDto extends Dto
 {

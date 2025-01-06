@@ -1,12 +1,12 @@
 <?php
 
-namespace IsapOu\AgileCrm\Services\Endpoints;
+namespace Isapp\AgileCrm\Services\Endpoints;
 
 use InvalidArgumentException;
-use IsapOu\AgileCrm\Contracts\AgileCrmEndpoint;
-use IsapOu\AgileCrm\Dto\ContactDto;
+use Isapp\AgileCrm\Contracts\AgileCrmEndpoint;
+use Isapp\AgileCrm\Dto\ContactDto;
 
-final class Contacts extends \IsapOu\AgileCrm\Services\Endpoints\AgileCrmEndpoint implements AgileCrmEndpoint
+final class Contacts extends \Isapp\AgileCrm\Services\Endpoints\AgileCrmEndpoint implements AgileCrmEndpoint
 {
     protected function getDto(): string
     {

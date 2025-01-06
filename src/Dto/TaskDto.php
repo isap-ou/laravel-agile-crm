@@ -1,13 +1,13 @@
 <?php
 
-namespace IsapOu\AgileCrm\Dto;
+namespace Isapp\AgileCrm\Dto;
 
 use InvalidArgumentException;
-use IsapOu\AgileCrm\Contracts\EpochTimeInterface;
-use IsapOu\AgileCrm\Enums\Tasks\TaskPriorityType;
-use IsapOu\AgileCrm\Enums\Tasks\TaskStatus;
-use IsapOu\AgileCrm\Enums\Tasks\TaskType;
-use IsapOu\AgileCrm\Support\Carbon;
+use Isapp\AgileCrm\Contracts\EpochTimeInterface;
+use Isapp\AgileCrm\Enums\Tasks\TaskPriorityType;
+use Isapp\AgileCrm\Enums\Tasks\TaskStatus;
+use Isapp\AgileCrm\Enums\Tasks\TaskType;
+use Isapp\AgileCrm\Support\Carbon;
 
 use function array_filter;
 use function array_walk;

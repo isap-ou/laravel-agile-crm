@@ -1,6 +1,6 @@
 <?php
 
-namespace IsapOu\AgileCrm\Contracts;
+namespace Isapp\AgileCrm\Contracts;
 
 use Illuminate\Contracts\Support\Arrayable;
 

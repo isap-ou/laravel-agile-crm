@@ -1,9 +1,9 @@
 <?php
 
-namespace IsapOu\AgileCrm\Dto;
+namespace Isapp\AgileCrm\Dto;
 
-use IsapOu\AgileCrm\Contracts\EpochTimeInterface;
-use IsapOu\AgileCrm\Support\Carbon;
+use Isapp\AgileCrm\Contracts\EpochTimeInterface;
+use Isapp\AgileCrm\Support\Carbon;
 
 final class NoteDto extends Dto
 {

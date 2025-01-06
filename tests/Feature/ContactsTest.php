@@ -1,14 +1,14 @@
 <?php
 
-namespace IsapOu\AgileCrm\Tests\Feature;
+namespace Isapp\AgileCrm\Tests\Feature;
 
 use Illuminate\Support\Collection;
-use IsapOu\AgileCrm\Dto\ContactDto;
-use IsapOu\AgileCrm\Dto\ContactPropertyDto;
-use IsapOu\AgileCrm\Enums\ContactPropertyType;
-use IsapOu\AgileCrm\Enums\ContactSystemPropertyName;
-use IsapOu\AgileCrm\Facades\AgileCrm;
-use IsapOu\AgileCrm\Tests\AgileCrmTest;
+use Isapp\AgileCrm\Dto\ContactDto;
+use Isapp\AgileCrm\Dto\ContactPropertyDto;
+use Isapp\AgileCrm\Enums\ContactPropertyType;
+use Isapp\AgileCrm\Enums\ContactSystemPropertyName;
+use Isapp\AgileCrm\Facades\AgileCrm;
+use Isapp\AgileCrm\Tests\AgileCrmTest;
 use PHPUnit\Framework\Attributes\Depends;
 use PHPUnit\Framework\Attributes\Test;
 

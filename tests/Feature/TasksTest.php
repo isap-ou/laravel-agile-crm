@@ -1,15 +1,15 @@
 <?php
 
-namespace IsapOu\AgileCrm\Tests\Feature;
+namespace Isapp\AgileCrm\Tests\Feature;
 
 use Illuminate\Support\Collection;
-use IsapOu\AgileCrm\Dto\ContactDto;
-use IsapOu\AgileCrm\Dto\TaskDto;
-use IsapOu\AgileCrm\Enums\Tasks\TaskPriorityType;
-use IsapOu\AgileCrm\Enums\Tasks\TaskType;
-use IsapOu\AgileCrm\Facades\AgileCrm;
-use IsapOu\AgileCrm\Support\Carbon;
-use IsapOu\AgileCrm\Tests\AgileCrmTest;
+use Isapp\AgileCrm\Dto\ContactDto;
+use Isapp\AgileCrm\Dto\TaskDto;
+use Isapp\AgileCrm\Enums\Tasks\TaskPriorityType;
+use Isapp\AgileCrm\Enums\Tasks\TaskType;
+use Isapp\AgileCrm\Facades\AgileCrm;
+use Isapp\AgileCrm\Support\Carbon;
+use Isapp\AgileCrm\Tests\AgileCrmTest;
 use PHPUnit\Framework\Attributes\Depends;
 use PHPUnit\Framework\Attributes\Test;
 

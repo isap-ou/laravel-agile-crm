@@ -1,9 +1,9 @@
 <?php
 
-namespace IsapOu\AgileCrm;
+namespace Isapp\AgileCrm;
 
 use Illuminate\Foundation\Console\AboutCommand;
-use IsapOu\AgileCrm\Services\AgileCrmClient;
+use Isapp\AgileCrm\Services\AgileCrmClient;
 
 class ServiceProvider extends \Illuminate\Support\ServiceProvider
 {

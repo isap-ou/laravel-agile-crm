@@ -1,8 +1,8 @@
 <?php
 
-namespace IsapOu\AgileCrm\Enums;
+namespace Isapp\AgileCrm\Enums;
 
-use IsapOu\AgileCrm\Contracts\EnumContract;
+use Isapp\AgileCrm\Contracts\EnumContract;
 
 enum ContactSystemPropertyName: string implements EnumContract
 {

@@ -1,12 +1,12 @@
 <?php
 
-namespace IsapOu\AgileCrm\Dto;
+namespace Isapp\AgileCrm\Dto;
 
 use DateTimeInterface;
 use Illuminate\Support\Carbon;
-use IsapOu\AgileCrm\Enums\ContactPropertySubType;
-use IsapOu\AgileCrm\Enums\ContactPropertyType;
-use IsapOu\AgileCrm\Enums\ContactSystemPropertyName;
+use Isapp\AgileCrm\Enums\ContactPropertySubType;
+use Isapp\AgileCrm\Enums\ContactPropertyType;
+use Isapp\AgileCrm\Enums\ContactSystemPropertyName;
 use RuntimeException;
 
 final class ContactDto extends Dto
@@ -28,7 +28,7 @@ final class ContactDto extends Dto
     public function __construct(
         public ?int $id = null,
         /** @var string[] $tags */ public array $tags = [],
-        /** @var \IsapOu\AgileCrm\Dto\ContactPropertyDto[] $properties */ array $properties = [],
+        /** @var ContactPropertyDto[] $properties */ array $properties = [],
         public int $lead_score = 0,
         public ?int $contact_company_id = null,
         ?int $star_value = 0,

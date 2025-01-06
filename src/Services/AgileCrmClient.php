@@ -1,13 +1,13 @@
 <?php
 
-namespace IsapOu\AgileCrm\Services;
+namespace Isapp\AgileCrm\Services;
 
 use Illuminate\Support\Facades\Config;
 use Illuminate\Support\Facades\Http;
-use IsapOu\AgileCrm\Contracts\AgileCrmEndpoint;
-use IsapOu\AgileCrm\Services\Endpoints\Contacts;
-use IsapOu\AgileCrm\Services\Endpoints\Notes;
-use IsapOu\AgileCrm\Services\Endpoints\Tasks;
+use Isapp\AgileCrm\Contracts\AgileCrmEndpoint;
+use Isapp\AgileCrm\Services\Endpoints\Contacts;
+use Isapp\AgileCrm\Services\Endpoints\Notes;
+use Isapp\AgileCrm\Services\Endpoints\Tasks;
 use RuntimeException;
 
 use function rtrim;

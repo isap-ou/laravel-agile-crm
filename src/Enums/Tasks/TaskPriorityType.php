@@ -1,8 +1,8 @@
 <?php
 
-namespace IsapOu\AgileCrm\Enums\Tasks;
+namespace Isapp\AgileCrm\Enums\Tasks;
 
-use IsapOu\AgileCrm\Contracts\EnumContract;
+use Isapp\AgileCrm\Contracts\EnumContract;
 
 enum TaskPriorityType: string implements EnumContract
 {

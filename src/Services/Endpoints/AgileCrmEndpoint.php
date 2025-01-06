@@ -1,11 +1,11 @@
 <?php
 
-namespace IsapOu\AgileCrm\Services\Endpoints;
+namespace Isapp\AgileCrm\Services\Endpoints;
 
 use Illuminate\Http\Client\PendingRequest;
 use Illuminate\Support\Collection;
-use IsapOu\AgileCrm\Contracts\AgileCrmResource;
-use IsapOu\AgileCrm\Contracts\DtoContract;
+use Isapp\AgileCrm\Contracts\AgileCrmResource;
+use Isapp\AgileCrm\Contracts\DtoContract;
 
 use function collect;
 

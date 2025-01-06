@@ -1,5 +1,5 @@
 <?php
 
-namespace IsapOu\AgileCrm\Contracts;
+namespace Isapp\AgileCrm\Contracts;
 
 interface EnumContract {}

@@ -1,5 +1,9 @@
 # AgileCRM Client for Laravel
 
+[![AgileCRM Client for Laravel](https://github.com/isap-ou/laravel-agile-crm/blob/main/images/banner.jpg?raw=true)](https://github.com/isap-ou/laravel-agile-crm)
+[![Latest Version on Packagist](https://img.shields.io/packagist/v/isapp/laravel-agile-crm.svg?style=flat-square)](https://packagist.org/packages/isapp/laravel-agile-crm)
+[![Total Downloads](https://img.shields.io/packagist/dt/isapp/laravel-agile-crm.svg?style=flat-square)](https://packagist.org/packages/isapp/laravel-agile-crm)
+
 > **Please note!** 
 > 
 > We only include the endpoints necessary for the team's projects. If any endpoints are missing, feel free to create a pull request (PR) to add the required endpoints.
@@ -72,9 +76,9 @@ Result will [Collection](https://laravel.com/docs/11.x/collections) of [ContactD
 
 ### Create contact
 ```php
-use IsapOu\AgileCrm\Dto\ContactDto;
-use IsapOu\AgileCrm\Dto\ContactPropertyDto;
-use IsapOu\AgileCrm\Enums\ContactSystemPropertyName;
+use Isapp\AgileCrm\Dto\ContactDto;
+use Isapp\AgileCrm\Dto\ContactPropertyDto;
+use Isapp\AgileCrm\Enums\ContactSystemPropertyName;
  
 ...
  
@@ -101,9 +105,18 @@ Result will [ContactDto](src/Dto/ContactDto.php)
 
 ## Contributing
 
-Please, submit bugs or feature requests via the [Github issues](https://github.com/isap-ou/laravel-agile-crm/issues).
-Pull requests are welcomed! Thanks!
+Contributions are welcome! If you have suggestions for improvements, new features, or find any issues, feel free to
+submit a pull request or open an [issue](https://github.com/isap-ou/laravel-agile-crm/issues) in this repository.
+
+Thank you for helping make this package better for the community!
 
 ## License
 
-The AgileCRM Client for Laravel is open-sourced software licensed under the [MIT license](http://opensource.org/licenses/MIT)
+This project is open-sourced software licensed under the [MIT License](https://opensource.org/licenses/MIT).
+
+You are free to use, modify, and distribute it in your projects, as long as you comply with the terms of the license.
+
+---
+
+Maintained by [ISAPP](https://isapp.be) and [ISAP OÜ](https://isap.me).  
+Check out our software development services at [isap.me](https://isap.me).

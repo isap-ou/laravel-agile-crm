@@ -1,7 +1,7 @@
 <?php
 
-namespace IsapOu\AgileCrm\Support;
+namespace Isapp\AgileCrm\Support;
 
-use IsapOu\AgileCrm\Contracts\EpochTimeInterface;
+use Isapp\AgileCrm\Contracts\EpochTimeInterface;
 
 class Carbon extends \Illuminate\Support\Carbon implements EpochTimeInterface {}

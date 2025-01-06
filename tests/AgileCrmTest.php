@@ -1,15 +1,15 @@
 <?php
 
-namespace IsapOu\AgileCrm\Tests;
+namespace Isapp\AgileCrm\Tests;
 
 use Illuminate\Foundation\Testing\WithFaker;
-use IsapOu\AgileCrm\Contracts\AgileCrmResource;
-use IsapOu\AgileCrm\Dto\ContactDto;
-use IsapOu\AgileCrm\Dto\ContactPropertyDto;
-use IsapOu\AgileCrm\Dto\NoteDto;
-use IsapOu\AgileCrm\Enums\ContactPropertySubType;
-use IsapOu\AgileCrm\Enums\ContactSystemPropertyName;
-use IsapOu\AgileCrm\Facades\AgileCrm;
+use Isapp\AgileCrm\Contracts\AgileCrmResource;
+use Isapp\AgileCrm\Dto\ContactDto;
+use Isapp\AgileCrm\Dto\ContactPropertyDto;
+use Isapp\AgileCrm\Dto\NoteDto;
+use Isapp\AgileCrm\Enums\ContactPropertySubType;
+use Isapp\AgileCrm\Enums\ContactSystemPropertyName;
+use Isapp\AgileCrm\Facades\AgileCrm;
 use Tests\TestCase as BaseTestCase;
 
 abstract class AgileCrmTest extends BaseTestCase

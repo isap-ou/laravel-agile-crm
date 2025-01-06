@@ -1,11 +1,11 @@
 <?php
 
-namespace IsapOu\AgileCrm\Services\Endpoints;
+namespace Isapp\AgileCrm\Services\Endpoints;
 
-use IsapOu\AgileCrm\Contracts\AgileCrmEndpoint;
-use IsapOu\AgileCrm\Dto\NoteDto;
+use Isapp\AgileCrm\Contracts\AgileCrmEndpoint;
+use Isapp\AgileCrm\Dto\NoteDto;
 
-final class Notes extends \IsapOu\AgileCrm\Services\Endpoints\AgileCrmEndpoint implements AgileCrmEndpoint
+final class Notes extends \Isapp\AgileCrm\Services\Endpoints\AgileCrmEndpoint implements AgileCrmEndpoint
 {
     protected function getDto(): string
     {
